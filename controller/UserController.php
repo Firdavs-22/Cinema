@@ -14,7 +14,7 @@ class UserController extends App
         $user = new UserModel($this->database);
         
         return $this->render('index.php','Doc',[
-            'user' => $movie
+            'user' => $user
         ]);
     }
 }
