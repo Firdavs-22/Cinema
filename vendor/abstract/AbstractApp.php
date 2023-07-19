@@ -1,6 +1,6 @@
 <?php
 
-namespace model;
+namespace vendor\abstract;
 
 use vendor\DB;
 

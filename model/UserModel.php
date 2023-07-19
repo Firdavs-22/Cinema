@@ -2,11 +2,8 @@
 
 namespace model;
 
-require 'vendor/abstract/AbstractModel.php';
-
 use vendor\DB;
-
-
+use vendor\abstract\AbstractModel;
 class UserModel extends AbstractModel
 {
     public function __construct(DB $db)

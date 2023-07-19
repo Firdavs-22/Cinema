@@ -2,11 +2,8 @@
 
 namespace vendor;
 
-use model\AbstractApp;
-
-require 'DB.php';
-require 'abstract\AbstractApp.php';
-
+use vendor\abstract\AbstractApp;
+use vendor\DB;
 
 class App extends AbstractApp
 {

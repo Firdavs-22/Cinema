@@ -2,9 +2,8 @@
 
 namespace model;
 
-require 'vendor/abstract/AbstractModel.php';
-
 use vendor\DB;
+use vendor\abstract\AbstractModel;
 
 
 class CategoryModel extends AbstractModel

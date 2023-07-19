@@ -5,28 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468a792f-b590-4c55-bf6a-41b800584832" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/AdminModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/CategoryModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/FavoriteModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/HallModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/HallPlaceModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/MovieCategoryModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/MovieModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/MovieSeanceModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/OrderPlaceModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/OrderSheetModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/UserModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/abstract/AbstractApp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/abstract/AbstractModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/layout/layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Cineme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cinema.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/AdminModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/AdminModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/CategoryModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/CategoryModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/FavoriteModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/FavoriteModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/HallModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/HallModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/HallPlaceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/HallPlaceModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/MovieCategoryModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/MovieCategoryModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/MovieModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/MovieModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/MovieSeanceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/MovieSeanceModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/OrderPlaceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/OrderPlaceModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/OrderSheetModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/OrderSheetModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/abstract/AbstractApp.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/abstract/AbstractApp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/abstract/AbstractModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/abstract/AbstractModel.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Development/GIT/Cineme",
+    "last_opened_file_path": "D:/Development/GIT/Cinema",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689662828287</updated>
       <workItem from="1689662829188" duration="122000" />
-      <workItem from="1689666617634" duration="13980000" />
+      <workItem from="1689666617634" duration="14201000" />
+      <workItem from="1689729640854" duration="999000" />
     </task>
     <servers />
   </component>

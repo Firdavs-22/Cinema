@@ -2,8 +2,7 @@
 
 spl_autoload_register(function ($className) {
     $classPath = str_replace('\\', DIRECTORY_SEPARATOR, $className);
-    $filePath = __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . $classPath . '.php';
-    echo $filePath;
+    $filePath = __DIR__ . DIRECTORY_SEPARATOR  . $classPath . '.php';
     if (file_exists($filePath)) {
         require $filePath;
     }
