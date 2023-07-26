@@ -5,92 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468a792f-b590-4c55-bf6a-41b800584832" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/badge.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/login-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/convert_minute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/preview_image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Language.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/LanguageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/MovieController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/MovieSeanceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/OrderController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/SiteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/buyurtma.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/css/home-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/css/ro'yxat-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/css/sign_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/js/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/js/royxat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/js/sign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/profil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/ro'yxat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/sign_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/yoqganlar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/1690334040.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ActiveRecord.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/Application.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/admin/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/admin/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/admin/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/auth/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/category/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/category/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/category/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/category/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/layout/auth-layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/layout/user-layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/movie/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/movie/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/movie/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/movie/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/movieSeance/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/movieSeance/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/movieSeance/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/order/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/order/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/site/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/site/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/user/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/AdminModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/AdminModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/CategoryModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/CategoryModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/FavoriteModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/FavoriteModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/HallModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/HallModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/HallPlaceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/HallPlaceModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MovieCategoryModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/MovieCategoryModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MovieModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/MovieModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/MovieSeanceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/MovieSeanceModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/OrderPlaceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/OrderPlaceModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/OrderSheetModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/OrderSheetModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/UserModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/DataBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/abstract/AbstractApp.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/abstract/AbstractController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/abstract/AbstractModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/abstract/AbstractModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/layout/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/layout/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/Language.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/Language.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +95,7 @@
       <workItem from="1690280164547" duration="6224000" />
       <workItem from="1690286864216" duration="18443000" />
       <workItem from="1690336281013" duration="54000" />
+      <workItem from="1690354983032" duration="1648000" />
     </task>
     <servers />
   </component>

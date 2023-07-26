@@ -11,6 +11,12 @@ class Language
         4 => 'jap'
     ];
     private static array $languege = [
+        'layout' => [
+            'uzb' => '',
+            'ru' => '',
+            'eng' => '',
+            'jap' => '',
+        ],
         'create　admin' => [
             'uzb' => 'Admin qoshish',
             'ru' => 'Создать админа',
@@ -35,7 +41,6 @@ class Language
             'eng' => 'Hall',
             'jap' => 'ホール',
         ],
-    
         'seance list' => [
             'uzb' => 'Seans royxati',
             'ru' => 'Список сеанса',
@@ -407,15 +412,14 @@ class Language
             'ru' => 'Выйти',
             'eng' => 'Logout',
             'jap' => 'ログアウト',
-        ],
-    
+        ]
     ];
     
     public static function get($key, $lang = null): string
     {
         if ($lang == null) {
             $lang = 4;
-            if (isset($_SESSION['admin']['language'])){
+            if (isset($_SESSION['admin']['language'])) {
                 $lang = $_SESSION['admin']['language'];
             }
         }
