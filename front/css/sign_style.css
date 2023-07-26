@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(rgb(19, 63, 90), rgb(197, 121, 116));
+}
+
+.sign-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.sign-box h2{
+    color: white;
+    margin: 0 0 30px 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.sign-box .phone-box{
+    position: relative;
+}
+
+.sign-box .phone-box input{
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.sign-box .phone-box label{
+    color: #fff;
+    top: 0;
+    left: 0;
+    position: absolute;
+    font-size: 18px;
+    padding: 10px 0; 
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.sign-box .phone-box span{
+    position: absolute;
+    font-size: 12px;
+    left: 0;
+    top: 60%;
+    color: red;
+}
+
+.sign-box .phone-box input.phone-err{
+    border-bottom: 1px solid red;
+}
+
+.sign-box .phone-box input.valid{
+    border-bottom: 1px solid #0f0;
+}
+
+.sign-box .phone-box input:focus ~ label,
+.sign-box .phone-box input:valid ~ label{
+    left: 0;
+    top: -20px;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+#sign-button{
+    width: 100%;    
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+}
+

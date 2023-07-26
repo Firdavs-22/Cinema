@@ -2,7 +2,7 @@
 
 namespace vendor;
 
-class DB
+class DataBase
 {
     private \mysqli $connection;
     

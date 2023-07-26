@@ -1,17 +1,21 @@
 <?php
+session_start();
 
-spl_autoload_register(function ($className) {
-    $classPath = str_replace('\\', DIRECTORY_SEPARATOR, $className);
-    $filePath = __DIR__ . DIRECTORY_SEPARATOR  . $classPath . '.php';
-    if (file_exists($filePath)) {
-        require $filePath;
-    }
-});
+require 'vendor/autoload.php';
 
-use controller\UserController;
+use vendor\Application;
 
 $db = include './config/db.php';
 
-$app = new UserController($db,'user');
+function dd($data)
+{
+    echo '<pre>';
+    print_r($data);
+    die('</pre>');
+}
 
-echo $app->actionIndex();
+$app = new Application($db);
+$app->run();
+
+
+$app->end();

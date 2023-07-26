@@ -2,15 +2,19 @@
 
 namespace model;
 
-use vendor\DB;
-use vendor\abstract\AbstractModel;
+use vendor\ActiveRecord;
+use vendor\DataBase;
 
-
-class OrderPlaceModel extends AbstractModel
+class OrderPlaceModel extends ActiveRecord
 {
-    public function __construct(DB $db)
+    public function __construct(DataBase $db)
     {
         parent::__construct($db, 'order_place');
+        $this->setAttributesName([
+            'id',
+            'order_sheet_id',
+            'hall_place_id',
+            'status'
+        ]);
     }
-    
 }

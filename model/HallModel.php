@@ -2,14 +2,18 @@
 
 namespace model;
 
-use vendor\DB;
-use vendor\abstract\AbstractModel;
+use vendor\ActiveRecord;
+use vendor\DataBase;
 
-class HallModel extends AbstractModel
+class HallModel extends ActiveRecord
 {
-    public function __construct(DB $db)
+    public function __construct(DataBase $db)
     {
         parent::__construct($db, 'hall');
+        $this->setAttributesName([
+            'id',
+            'title',
+            'status'
+        ]);
     }
-    
 }

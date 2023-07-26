@@ -1,0 +1,64 @@
+.nav-left {
+    left: -35px;
+}
+
+.nav-right {
+    right: -35px;
+}
+
+.carousel-arrow-icon-left {
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.carousel-arrow-icon-right {
+    margin-left: 9px;
+    margin-top: 4px;
+}
+.carousel-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.carousel {
+    position: relative;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.carousel-content {
+    position: relative;
+    overflow: hidden;
+    transition: width .4s;
+    height: 100%;
+}
+
+.slide {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transition: left .4s cubic-bezier(.47, .13, .15, .89);
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    background-color: rgba(150, 150, 150, .3);
+    width: 30px; /* Increase the size of the navigation buttons */
+    height: 30px; /* Increase the size of the navigation buttons */
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    -webkit-user-select: none;
+}

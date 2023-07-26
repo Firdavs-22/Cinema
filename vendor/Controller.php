@@ -2,22 +2,52 @@
 
 namespace vendor;
 
-use vendor\abstract\AbstractApp;
-use vendor\DB;
+use vendor\abstract\AbstractController;
+use config\Config;
 
-class App extends AbstractApp
+class Controller extends AbstractController
 {
     public string $layout = 'layout.php';
     public string $layout_path = 'view/layout/';
     public string $view_path = 'view/';
-    public string $view_folder;
+    public string $view_folder = 'site/';
+    public string $assets_folder = 'assets/';
+    public string $css_folder = 'css/';
     
-    public function __construct(array $db, string $view_folder)
+    public string $js_folder = 'js/';
+    
+    public array $cssFiles = [];
+    
+    public array $jsFiles = [];
+    
+    public function beforeAction()
     {
-        parent::__construct($db);
-        $this->view_folder = $view_folder . '/';
+    
     }
     
+    public function registerCss($cssFile)
+    {
+        $this->cssFiles[] = $cssFile;
+    }
+    
+    public function registerJs($jsFile)
+    {
+        $this->jsFiles[] = $jsFile;
+    }
+    
+    public function renderCssFiles()
+    {
+        foreach ($this->cssFiles as $cssFile) {
+            echo "<link rel='stylesheet' href='" . Config::get('siteBasePath') . $this->assets_folder . $this->css_folder . $cssFile . ".css'>";
+        }
+    }
+    
+    public function renderJsFiles()
+    {
+        foreach ($this->jsFiles as $jsFile) {
+            echo "<script src='" . Config::get('siteBasePath') . $this->assets_folder . $this->js_folder . $jsFile . ".js'></script>";
+        }
+    }
     
     public function renderLayout(string $content, string $pageTitle): false|string
     {
@@ -51,5 +81,15 @@ class App extends AbstractApp
             error_log('Error rendering view: ' . $e->getMessage());
             return false;
         }
+    }
+    
+    public function setDB(DataBase $db): void
+    {
+        $this->db = $db;
+    }
+    
+    public function setViewFolder(string $view_folder): void
+    {
+        $this->view_folder = $view_folder;
     }
 }

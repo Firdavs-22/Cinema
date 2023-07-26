@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    margin: 0 4px 0 0;
+}
+
+.icon + .delete {
+    color: #dc3545;
+}
+
+.icon + .view {
+    color: #00c4ff;
+}
+
+.icon + .update {
+    color: #28a745;
+}
+
+input[type="datetime-local"] {
+    padding: 10px;
+    font-size: 16px;
+}

@@ -2,14 +2,14 @@
 
 namespace vendor\abstract;
 
-use vendor\DB;
+use vendor\DataBase;
 
 abstract class AbstractModel
 {
-    protected DB $db;
-    protected string $tableName;
+    public DataBase $db;
+    private string $tableName;
     
-    public function __construct(DB $db, string $tableName)
+    public function __construct(DataBase $db, string $tableName)
     {
         $this->db = $db;
         $this->tableName = $tableName;
@@ -30,7 +30,7 @@ abstract class AbstractModel
         return $result[0] ?? null;
     }
     
-    public function add($data): int|string
+    public function add(array $data): int|string
     {
         foreach ($data as $key => $value) {
             $data[$key] = $this->db->escapeString($value);
@@ -60,7 +60,7 @@ abstract class AbstractModel
         return $this->db->updateQuery($sql);
     }
     
-    public function delete($id): int|string
+    public function deleteId($id): int|string
     {
         $id = $this->db->escapeString($id);
         $sql = "DELETE FROM {$this->tableName} WHERE id = $id";
